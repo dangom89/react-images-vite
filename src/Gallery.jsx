@@ -35,7 +35,6 @@ const Gallery = () => {
     )
   }
 
-  console.log(response)
   const results = response.data.results
   if (results.length < 1) {
     return (
